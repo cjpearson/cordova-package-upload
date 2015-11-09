@@ -1,0 +1,26 @@
+{
+  "id": "cordova-package-upload",
+  "name": "cordova-package-upload",
+  "version": "0.0.1",
+  "description": "A Cordova plugin for uploading builds to the app store.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cjpearson/cordova-package-upload.git"
+  },
+  "keywords": [
+    "cordova",
+    "ecosystem:cordova",
+    "cordova-ios"
+  ],
+  "author": "Connor Pearson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cjpearson/cordova-package-upload/issues"
+  },
+  "homepage": "https://github.com/cjpearson/cordova-package-upload#readme",
+  "dependencies": {
+    "glob": "^5.0.15",
+    "nopt": "^3.0.4",
+    "path": "^0.12.7"
+  }
+}

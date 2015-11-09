@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" id="cordova-package-upload" version="0.0.1">
+    <name>cordova-package-upload</name>
+    <description>A Cordova plugin for uploading builds to the app store.</description>
+
+    <keywords>cordova, package, appstore</keywords>
+    
+	<engines>
+        <engine name="cordova-ios" version=">=3.9.0" />
+    </engines>
+	
+    <hook src="upload.js" type="after_build" />
+    <hook src="install.js" type="after_plugin_install" />
+    
+</plugin>
